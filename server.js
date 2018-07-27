@@ -25,7 +25,7 @@ mongoose.connect(configDB.url).then(
     }
 ); // connect to our database
 
-// require('./config/passport')(passport); //pass passport for configuration
+require('./config/passport')(passport); //pass passport for configuration
 
 
 //  set express applicatiion ================================
